@@ -1,0 +1,9 @@
+﻿fastapi
+uvicorn[standard]
+ollama
+pydantic
+python-dotenv
+rich
+httpx
+itsdangerous
+python-multipart

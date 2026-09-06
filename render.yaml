@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: j-sgent
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: JSGENT_USER
+        value: admin
+      - key: JSGENT_PASS
+        sync: false
+      - key: JSGENT_SECRET
+        generateValue: true
+      - key: MUSE_API_BASE
+        value: https://api.opencode.ai/v1
+      - key: MUSE_API_KEY
+        sync: false
+      - key: MUSE_MODEL
+        value: opencode/muse-spark-1.2-contributor-free

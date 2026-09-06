@@ -1,13 +1,9 @@
-﻿web/static/
-app/
-Dockerfile
-requirements.txt
-Procfile
-render.yaml
-.env.example
-# secrets — jangan commit
+﻿# secrets - jangan commit
 .env
 .env.production
 .generated_creds.txt
 .venv/
 __pycache__/
+*.pyc
+.bak-20260905/
+
