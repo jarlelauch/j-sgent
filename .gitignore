@@ -1,0 +1,7 @@
+﻿web/static/
+app/
+Dockerfile
+requirements.txt
+Procfile
+render.yaml
+.env.example

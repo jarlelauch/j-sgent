@@ -1,0 +1,7 @@
+.venv
+__pycache__
+*.pyc
+.bak-20260905
+*.backup*
+data/memory
+obsidian

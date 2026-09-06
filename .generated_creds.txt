@@ -1,0 +1,4 @@
+﻿JSGENT_USER=admin
+JSGENT_PASS=JSG-8du6lxGWDBYFoVwaCc!
+JSGENT_SECRET=GIoE9r3iNTnmxs16F8aPReA0D7BflkjgYyquJS4Wp2wzdtMv
+MUSE_MODEL=opencode/muse-spark-1.2-contributor-free
