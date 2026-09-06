@@ -5,3 +5,9 @@ requirements.txt
 Procfile
 render.yaml
 .env.example
+# secrets — jangan commit
+.env
+.env.production
+.generated_creds.txt
+.venv/
+__pycache__/
